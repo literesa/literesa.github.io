@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>个人博客</title>
+	<link href="css/Location.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+</head>
+
+<body class="body--ready" data-pinterest-extension-installed="cr1.39.1">
+    <!-- 自定义动画窗体 -->
+    <canvas height="100%" width="100%" style="position: fixed; top: 0px; left: 0px; opacity: 1;"  id="canvas" class="canvas"></canvas>
+    <!-- 主界面 -->
+    <div id="willerce" class="personal">
+        <div class="block">
+            <div>
+                <img src="img/liu.png" id="logo" class="logo" title="======"/>
+                <h1>旅行</h1>
+                <a class="profile">宇宙山河浪漫</a>
+            </div>
+            <div class="menu">
+                <a class="anniu" href="travel.html" target="_self">个人网页</a>
+            </div>
+        </div>
+        <div class="block">
+            <div>
+                <img src="img/dong.jpg" id="logo" class="logo" title="======"/>
+                <h1>生活</h1>
+                <a class="profile">生活点滴温暖</a>
+            </div>
+            <div class="menu">
+                 <a class="anniu" href="live.html">个人网页</a>
+            </div>
+        </div>
+        <div class="block">
+            <div>
+                <img src="img/yang.jpg" id="logo" class="logo" title="======"/>
+                <h1>分享</h1>
+                <a class="profile">凡是过往皆为序章</a>
+            </div>
+            <div class="menu">
+                 <a class="anniu" href="share.html">个人网页</a>
+            </div>
+        </div>
+        <div class="block">
+            <div>
+                <img src="img/guo.jpg" id="logo" class="logo" title="====="/>
+                <h1>关于</h1>
+                <a class="profile">所有将来皆为可盼。</a>
+            </div>
+            <div class="menu">
+                 <a class="anniu" href=" about.html" target="_self">个人网页</a>
+            </div>
+        </div>
+       
+        <div class="blink">
+            请点击任意位置
+        </div>
+    </div>
+
+    <!-- 左排标签 -->
+    <div id="label" class="label">
+        <div class="people">
+            <img src="img/liu.png" id="logo" class="logo" title="====="/>
+            <div>
+                <h1>旅行</h1>
+                <span>渺小的生命,因旅行而遇见诸多的奇遇.</span>
+            </div>
+        </div>
+        <div class="people">
+            <img src="img/dong.jpg" id="logo" class="logo" title="===="/>
+            <div>
+                <h1>生活</h1>
+                <span>日子有些沉闷，还好跑起来有风。</span>
+            </div>
+        </div>
+        <div class="people">
+            <img src="img/yang.jpg" id="logo" class="logo" title="====="/>
+            <div>  
+                <h1>分享</h1>
+                <span>宝物放错地方就是废物。</span>
+            </div>
+        </div>
+        
+        <div class="people">
+            <img src="img/guo.jpg" id="logo" class="logo" title="====="/>
+            <div>  
+                <h1>关于</h1>
+                <span>我永远忠于自己，披星戴月奔向理想.</span>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- 右侧图片墙 -->
+    <div id="right" class="right">
+        <div class="blink2">
+            点击左侧头像按钮
+        </div>
+        <img class="first" src="img/1.jpg" alt="日本-滋贺县">
+        <img class="second" src="img/2.jpg" alt="日本-滋贺县">
+        <img class="third" src="img/3.jpg" alt="日本-滋贺县">
+        <img class="fourth" src="img/4.jpg" alt="日本-滋贺县">
+        <img class="fiveth" src="img/5.jpg" alt="日本-滋贺县">
+        <img class="sixth" src="img/6.jpg" alt="日本-滋贺县">
+        <img class="seventh" src="img/7.jpg" alt="日本-京都">
+        <img class="eighth" src="img/8.jpg" alt="日本-京都">
+        <img class="nineth" src="img/9.jpg" alt="日本-京都">
+        <img class="tenth" src="img/10.jpg" alt="日本-京都">
+    </div>
+     
+    <div>
+        <button id="return" class="return">返回照片墙</button>
+    </div>
+
+    <!-- 隐藏悬浮框，个人主页简介 -->
+	<div id="background" class="container row">
+        <a class="number1" href="travel.html" target="_self">
+            <div class="page row liu">
+                <img src="img/liu1.jpg" alt="">
+                <div class="page-right">
+                    <img src="img/liu2.jpeg" alt="">
+                </div>
+                <h2 class="big" style="color: rgb(255, 255, 49)">旅行的意义</h2>
+                <p style="font-size: 14px; font-weight: bold; color: rgb(255, 255, 49)">
+                    &nbsp;&nbsp;&nbsp;别说岁月漫长，长不过沿途的山脉，长不过窗外的阳光，长不过光线突然暗下来的隧道，更长不过下一个远方。<br><br>
+                    &nbsp;&nbsp;&nbsp;生活明朗，万物可爱。人间值得，未来可期<br><br>
+                    <span>----佚名</span>
+                </p>
+            </div>
+        </a>
+        <a class="number1" href=" live.html" target="_self">
+            <div class="page row dong">
+                <img src="img/sun.jpeg" alt="">
+                <div class="page-right">
+                    <img src="img/sunr.jpeg" alt="">
+                </div>
+                <h2 class="big">生活的意义</h2>
+                <p style="font-size: 14px;font-weight: bold;">
+                    &nbsp;&nbsp;&nbsp;世界是你们的，也是我们的，但是归根结底是你们的。<br><br>
+                    &nbsp;&nbsp;&nbsp;你们青年人朝气蓬勃，正在兴旺时期，好像早晨八九点钟的太阳。希望寄托在你们身上。<br><br>
+                    <span>---毛泽东</span>
+                </p>
+			</div>
+		</a>
+        <a class="number1" href=" share.html" target="_self">
+            <div class="page row li">
+                    <img src="img/11.jpeg" alt="">
+                <div class="page-right">
+                    <img src="img/12.jpeg" alt="">
+                </div>
+                <h2 class="big">分享的意义</h2>
+                <p style="font-size: 14px;font-weight: bold;">
+                    &nbsp;&nbsp;&nbsp;这个世界就是有了分享才变得如此的美丽，无论你与人分享的是快乐或是痛苦，是欢笑或是眼泪.<br><br>
+                    &nbsp;&nbsp;&nbsp;生命因分享而充实，因分享而充满激情，因分享而多姿多彩。<br><br>
+                    <span>---佚名</span>
+                </p>
+            </div>
+        </a>
+       <a class="number1" href="about.html" target="_self">
+            <div class="page row guo">
+                <img src="img/guo1.jpeg" alt="">
+                <div class="page-right">
+                    <img src="img/guo2.jpeg" alt="">
+                </div>
+                <h2 class="big">关于作者</h2>
+                <p style="font-size: 14px;font-weight: bold;">
+                    &nbsp;&nbsp;&nbsp;重要的东西眼睛是看不见的，就像花一样，如果你喜欢一朵长在某颗星星上的花，<br><br>
+                    &nbsp;&nbsp;&nbsp;那夜里看天空就会很温馨，所有的星星都好像开着的花一样。<br><br>
+                    <span>---小王子</span>
+                </p>
+			</div>
+		</a>
+        
+    </div>
+    
+    <!-- 动画终止框 隐藏 -->
+     <div id="shiping">
+        <video id="bfq" >
+            <source src="#" type="video/webm">
+            <source src="#" type="video/mp4" id="mp4_sp">
+        </video>
+    </div>
+    <span id="jb" class="copyright">&copy; </a></span>
+
+    <script src="js/Seffects.js" type="text/javascript">
+    </script>
+</body>
+</html>
